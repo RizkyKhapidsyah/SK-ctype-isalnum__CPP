@@ -11,7 +11,10 @@ int main() {
 
 	i = 0;
 
-	while (isalnum(str[i])) i++;
+	while (isalnum(str[i])) {
+		i++;
+	}
+
 	printf("The first %d characters are alphanumeric.\n", i);
 
 	_getch();
